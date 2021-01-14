@@ -69,6 +69,7 @@
     background-color: #b0e6ff;
     padding: 20px;
     list-style-type: none;
+    border-radius: 10px;
   }
   li:hover {
     cursor: pointer;
