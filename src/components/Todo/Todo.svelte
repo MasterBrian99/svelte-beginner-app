@@ -16,6 +16,16 @@
   }
 </script>
 
+<svelte:head>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+  />
+</svelte:head>
 <section>
   <h1 class="is-size-1 has-text-centered has-text-weight-bold has-text-white">
     TO-DO LIST
@@ -48,6 +58,20 @@
 </section>
 
 <style>
+  :global(body) {
+    color: #333;
+    margin: 0;
+    padding: 8px;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+    background: rgb(65, 130, 242);
+    background: linear-gradient(
+      201deg,
+      rgba(65, 130, 242, 1) 49%,
+      rgba(0, 212, 255, 1) 100%
+    );
+  }
+
   .center-div {
     margin-top: 30px;
   }
